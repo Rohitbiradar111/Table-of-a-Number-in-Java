@@ -6,7 +6,7 @@ public class TableofaNumber {
         int number = 3;
         for(int i=1;i<=10;i++)
         {
-            System.out.print(number * i+" ");
+            System.out.println(number+" * "+i+" = "+number * i);
         }
 
         System.out.println();
@@ -16,7 +16,7 @@ public class TableofaNumber {
         int n = 1;
         while(n<=10)
         {
-            System.out.print(number1 * n+" ");
+            System.out.println(number1+" * "+n+" = "+number1 * n);
             n++;
         }
     }
